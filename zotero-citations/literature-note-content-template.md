@@ -1,0 +1,1 @@
+<% tp.file.rename(`${tp.user.titleString("{{citekey}}")}`) %><% `${tp.user.generateTemplate("{{citekey}}")}` %>

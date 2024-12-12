@@ -1,0 +1,3 @@
+- The vault is backed up to GitHub using the [obsidian-git](https://github.com/Vinzent03/obsidian-git) plugin for version control.
+- [This link]() provides a great tutorial for how to set this up.
+- In particular, I find it useful to turn off automatic synching and bind the `Git: Create backup and close` hotkey to something like `Ctrl + 0`, which can then be used every time I want to close Obsidian. This minimises the number of excessive syncs that need to be done.

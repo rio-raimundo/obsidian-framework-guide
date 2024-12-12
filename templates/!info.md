@@ -1,0 +1,2 @@
+- The templates here can be used with the `Templater` Obsidian plugin to speed up workflow.
+- Some are designed to be used as default templates for files in specific folders (discussed in workflow-overview.md).
