@@ -71,7 +71,7 @@ function joinAuthors(fullAuthorList) {
     if (len == 1)
         return fullAuthorList[0];
     else if (len == 2)
-        return fullAuthorList.join("\ and ");
+        return fullAuthorList.join("\ & ");
     else if (len >= 3)
         return fullAuthorList[0] + " et al.";
 }
