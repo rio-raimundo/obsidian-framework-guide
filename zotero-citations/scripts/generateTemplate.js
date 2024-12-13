@@ -7,13 +7,19 @@ function generateTemplate(citekey) {
   
   // Define the template here!
   let entry = app.plugins.plugins['obsidian-citation-plugin'].library.entries[citekey];
-  console.log(entry);
+
+  // Define the type (can either be in data.fields.type array or just data as a string)
+  if ('type' in entry.data.fields) { document_type = entry.data.fields.type[0] }
+  else if ('type' in entry.data) { document_type = entry.data.type }
+  else { document_type = "misc" }
+  document_type = document_type.toLowerCase();
+
   const template = `
 ---
 title: "${entry.title}"
 journal: "${entry.data.fields.journal?.[0] ?? ""}"
 tags:
-  - document/${entry.data.type}
+  - document/${document_type}
 ${authorsString(citekey, 2)}
 zotero: ${entry.zoteroSelectURI}
 doi: ${urlString(citekey)}
