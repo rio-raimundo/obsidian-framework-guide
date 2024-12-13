@@ -12,6 +12,6 @@ This section will provide an overview of my personal workflow for importing Zote
 - If you would like to change the template, all you have to do is edit the `generateTemplate.js` file as needed!
 
 ## Editing existing files 
-- Sometimes you change your import structure, but are then left with outdated formatting on your old article pages. To get around this, I created the [obsidian-text-tools](https://github.com/rio-raimundo/obsidian-text-tools) repository.
+- Sometimes you change your import structure, but are then left with outdated formatting on your old article pages. To get around this, I created the [obsidian-citations-batch-tools](https://github.com/rio-raimundo/obsidian-text-tools) repository.
 - This repo contains code written in Python, and provides architecture for a user to execute a simple Python function at the level of every 'article' file in the vault, alongside a set of helpful existing functions to speed up various operations (such as rearranging the properties of a file!)
 - Though this repo was originally designed purely for personal use, the `main` branch has been adapted to provide documentation and hopefully allow others to use it for their own vaults.
