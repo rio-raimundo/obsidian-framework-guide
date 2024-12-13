@@ -11,10 +11,10 @@ function generateTemplate(citekey) {
   const template = `
 ---
 title: "${entry.title}"
+journal: "${entry.data.fields.journal?.[0] ?? ""}"
 tags:
   - document/${entry.data.type}
 ${authorsString(citekey, 2)}
-journal: "${entry.data.fields.journal?.[0] ?? ""}"
 zotero: ${entry.zoteroSelectURI}
 doi: ${urlString(citekey)}
 authors:
