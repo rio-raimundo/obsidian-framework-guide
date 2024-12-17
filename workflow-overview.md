@@ -15,7 +15,14 @@
      - These notes are general other notes, including 'to do' lists, notes for meetings, etc.
 
 # How to use the repository
-- Each folder in the repository provides a set of files which can be used 
+- Each folder in the repository provides a set of files which can be used to copy the relevant part of the workflow, as well as a general !info.md file explaining that part of the setup.
+- There are currently three main sections: 
+   1. **Templates**:
+      - These are my general templates which I use as the default note layouts for specific folders (including for concept notes). 
+   2. **Zotero citations**:
+      - This is the most involved part of the repository, and describes my process of bringing in citations from Zotero and populating notes in the vault with them, including my templates.
+   3. **Git integration**: 
+      - Not many resources to this one, but just a reminder of the links in case I need to set it up again.
 
 
 
